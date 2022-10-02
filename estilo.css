@@ -1,0 +1,124 @@
+	* {margin: 0; padding: 0;}
+	img {max-width: 100%;}
+	html {scroll-behavior: smooth;}
+
+	body {font-family: 'Montserrat', sans-serif;}
+
+	header {background-color: #7F8484; padding: 2px; top: 0;}
+	header:after {display: block; clear: both; content: '';}
+	nav {text-align: center; margin: 15px 15px 0px 0px; background-color: #7F8484; color: white; text-decoration: none;}
+	nav a {text-decoration: none; margin: 30px 30px 30px 30px; display: inline-block; color: white;}
+	.boton {color: darkgreen; padding: 10px; display: inline-block; text-decoration: none; margin-top: 10px; float: inherit; border-radius: 10px; background-color: floralwhite;}
+	nav a:hover {background-color: darkgreen; color: white; transition: all 4s;}
+
+	section {text-align: center; background-color: white; text-decoration: none;}
+	section h1 {font-weight:bold;}
+	section h2 {font-weight:bold;margin: 10px 0;}
+	section h3 {font-weight:bold;}
+
+	.botonindex {background-color: grey; color: white; padding: 10px; display: inline-block; text-decoration: none;}
+	.botoncajas {background-color: darkgreen; color: white; padding: 10px; display: inline-block; text-decoration: none; border-radius: 10px;}
+
+	.cajacontenedora {display: flex;}
+	.cajacontenedora div {width: 49%; flex-flow: wrap; margin: 1%; padding: 40px;}
+	.cajacontenedora div img {width: 32%;}
+	.cajacontenedora div h2 {color: darkgreen; font-weight: bold; margin: 5px;}
+	.cajacontenedora div p {margin: 5px; color: black; font-weight: normal; text-align: justify;}
+	.cajacontenedora .algunasobras {background-color: floralwhite;}
+	.cajacontenedora .Corriente { background-image: url("Imagenes/literaturaweb.jpg")}
+
+	.bibliografia {display: flex;}
+	.bibliografia div {width: 99%; flex-flow: wrap; margin: 1%; padding: 40px; background-color: darkgreen; color: white; box-sizing: border-box; border-radius: 10px;}
+	.bibliografia div h2 {font-weight: bold;}
+	.bibliografia div p {text-align: justify;}
+	.contenido {display: flex;}
+	.contenido div {width: 99%; flex-flow: wrap; margin: 1%; padding: 40px; color: black;}
+	.contenido div h2 {color: darkgreen;}
+	.contenido div p {text-align: justify; font-size: 16px;}
+
+	.autoresslider {display: block; width: 35%; margin: auto; justify-content: center; color: darkgreen;}
+
+
+	.campos {display: flex; flex-flow: wrap; padding: 40px;}
+	.textocentrado {display:flex; flex-flow: wrap; align-items: center; background-color: darkgreen; color: white; padding: 40px}
+	.textocentrado div {width: 48%; margin-top: 1%; margin-bottom: 1%;}
+	.textocentrado div p {text-align: center;}
+	.textocentrado div p {text-align: justify;}
+
+	.masfilosofia {padding: 40px; margin: 1%;}
+	.masfilosofia h1 {color: green; font-size: 34px; text-align: center;}
+	.masfilosofia p {color: black; line-height: 30px; text-align: justify; font-size: 18px;}
+
+	.textito {display: flex; flex-flow: wrap; margin: 1%; width: 99%; padding: 20px; box-sizing: border-box; border: 1px solid #296218; text-align: center;}
+	.textito h3 {font-size: 22px; color: darkgreen; line-height: 27px; padding: 5px;}
+	.textito p {font-size: 14px;color: darkgreen;}
+
+	.estetica {display: flex;}
+	.estetica div {flex-flow: wrap; width: 99%; margin: 1%; padding: 40px; color: white;}
+	.estetica .videoo {background-color: darkgreen;}
+
+	.galeria {display: flex;flex-wrap: wrap; flex-flow: wrap; flex-direction: row; text-align: center; padding: 30px; margin-top: 50px;align-content: center;}
+	.columna{margin: 30px;flex: 25%;}
+
+	.contactito {display:flex;}
+	.contactito div {flex-flow: wrap; width: 49%; margin-top: 1%; margin-bottom: 1%; padding: 40px;}
+	.contactoo {background-color: darkgreen; color: white; text-align: center;}
+	.contactoo h1 {font-size: 50px;}
+	.contactoo h1 {font-size: 40px}
+	.contactooo {background-color: white;color: black;}
+
+	form {max-width: 640px; padding:30px; margin: auto; display: block;}
+	form strong {width:160px; float:left;}
+	form p { clear:both; padding: 20px 0px; font-weight: bold;}
+	form input { width: 50%; padding: 4px; border-radius: 4px; border: 1px solid #296218; box-sizing: border-box;}
+	form input[type=submit] { width: 100px; padding:10px; text-align: center; background-color: darkgreen; color: white; text-trasform:uppercase;}
+	form input[type=checkbox] { width: 20px;}
+
+	.cajasinborde {display:flex;}
+	.cajasinborde div {width:99%; margin:1%; flex-flow: wrap; line-height: inherit;}
+	.cajasinborde p {font-size: 18px; font-weight: bolder; color: black; letter-spacing: normal; line-height: 30px;}
+
+	.respuestaa h1 {font-weight:bold; text-align: left; padding: 90px;}
+
+	.mySlides {width: 100%; display:block; margin:auto; line-height: 7;}
+	.icono {display: none;}
+
+	footer {background-color: #7F8484; color: white; padding: 10px; text-align: center; text-decoration: none; font-weight: bold}
+	.footer-clean {padding:50px 0; text-decoration: none; font-weight: bold;}
+	.footer-clean h3 {margin-top:0;margin-bottom:12px;}
+	.footer-clean ul {padding:0;list-style:none;line-height:1.6;margin-bottom:0;}
+	.footer-clean .item.social {text-align:right;}
+	.footer-clean .copyright {margin-top:14px; margin-bottom:0;}
+	footer a {text-decoration: none; color: white;}
+
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width:727px) {
+}
+
+@media (max-width:800px) { 
+	nav {display: block;} 
+	nav a {display:block;} 
+	.icono {display:block; float: right; color: saddlebrown;} 
+	.boton {display: block;}
+	page-footer .footer.content .links {display: flex;flex-wrap: wrap;justify-content: center; padding: 0; margin-top: 5px; line-height: 50px;}
+}
+
+@media (max-width:480px) {
+	nav {height: 0; display: block; overflow: hidden;} 
+	nav a {display:block;} 
+	.responsive {display:block; height: 300px; transition: all 2s;} 
+	.icono {display: block;float: right; color: saddlebrown;} 
+	.boton {display: block;} 
+	form strong {display: none;}
+	form input {width: 100%;}
+	.textocentrado div {width:98%; margin: 1%; padding: 10px; font-size: 15px;}
+	
+}
+
